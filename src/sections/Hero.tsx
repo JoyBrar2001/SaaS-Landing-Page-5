@@ -54,7 +54,7 @@ export default function Hero() {
           <input
             type="text"
             placeholder="Enter your email"
-            className="bg-transparent px-4 md:flex-1 rounded-full focus:outline-white/15 focus:outline-[1px] focus:outline-offset-1"
+            className="bg-transparent px-4 md:flex-1 w-full rounded-full focus:outline-white/15 focus:outline-[1px] focus:outline-offset-1"
           />
 
           <Button
