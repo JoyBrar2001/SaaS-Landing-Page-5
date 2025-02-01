@@ -97,7 +97,7 @@ export default function Features() {
             description="Powerful commands to help you create designs more quickly"
             className="col-span-2 lg:col-span-1 md:col-start-2 lg:col-start-auto"
           >
-            <div className="aspect-video flex items-center justify-center">
+            <div className="aspect-video flex items-center justify-center gap-4">
               <Key className="w-28">shift</Key>
               <Key>alt</Key>
               <Key>C</Key>
