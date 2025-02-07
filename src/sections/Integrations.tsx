@@ -1,11 +1,12 @@
 import Tag from "@/components/Tag";
+import IntegrationsColumn from "@/components/IntegrationsColumn";
+
 import figmaIcon from "@/assets/images/figma-logo.svg";
 import notionIcon from "@/assets/images/notion-logo.svg";
 import slackIcon from "@/assets/images/slack-logo.svg";
 import relumeIcon from "@/assets/images/relume-logo.svg";
 import framerIcon from "@/assets/images/framer-logo.svg";
 import githubIcon from "@/assets/images/github-logo.svg";
-import IntegrationsColumn from "@/components/IntegrationsColumn";
 
 const integrations = [
   { name: "Figma", icon: figmaIcon, description: "Figma is a collaborative design tool" },
@@ -45,6 +46,7 @@ export default function Integrations() {
             <IntegrationsColumn
               integrations={integrations.slice().reverse()}
               className="max-md:hidden"
+              reverse
             />
           </div>
         </div>
