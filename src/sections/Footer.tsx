@@ -24,7 +24,7 @@ export default function Footer() {
               {footerLinks.map((link) => (
                 <a
                   key={link.label}
-                  className="text-white/50 text-sm"
+                  className="text-sm text-white/50 hover:text-white transition-colors duration-300"
                   href={link.href}
                 >
                   {link.label}
